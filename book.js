@@ -135,8 +135,7 @@ class Book {
         break;
     }
     
-    window.onload = () => {
-        getPageContent('list');
-    };
 }
-}
+  window.onload = () => {
+    getPageContent('list');
+  };
