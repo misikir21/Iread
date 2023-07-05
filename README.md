@@ -1,4 +1,4 @@
-# Iread# Book-World
+# Iread
 Awesome Books! is my third project at Microverse, in this project I will create a personal book collection when the user can add or delete books and this information will be preserved in the local storage system.
 
 # 📗 Table of Contents
