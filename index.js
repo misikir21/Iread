@@ -4,6 +4,7 @@ import Book from './modules/book.js';
 import { bookList } from './modules/booklist.js';
 import { contact } from './modules/contact.js';
 import { addNewBook } from './modules/addNewBook.js';
+import {DateTime} from './modules/luxon.js';
 
 const btnContact = document.querySelector('#btnContact');
 const btnAddBook = document.querySelector('#btnAddbook');
@@ -35,13 +36,13 @@ btnList.addEventListener('click', () => {
 });
 
 setInterval(() => {
-  // const currentDate = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
-  // document.querySelector('.date').innerHTML = currentDate;
+  const currentDate = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
+  document.querySelector('.date').innerHTML = currentDate;
 }, (1000));
 
 window.onload = () => {
   document.getElementById('content').innerHTML = bookList();
   store.display();
-  // const currentDate = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
-  // document.querySelector('.date').innerHTML = currentDate;
+  const currentDate = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
+  document.querySelector('.date').innerHTML = currentDate;
 };
