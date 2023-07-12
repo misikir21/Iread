@@ -4,7 +4,7 @@ import Book from './modules/book.js';
 import { bookList } from './modules/booklist.js';
 import { contact } from './modules/contact.js';
 import { addNewBook } from './modules/addNewBook.js';
-import {DateTime} from './modules/luxon.js';
+import { DateTime } from './modules/luxon.js';
 
 const btnContact = document.querySelector('#btnContact');
 const btnAddBook = document.querySelector('#btnAddbook');
