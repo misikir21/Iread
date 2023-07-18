@@ -1,5 +1,5 @@
-# Iread
-Awesome Books! is my third project at Microverse, in this project I will create a personal book collection when the user can add or delete books and this information will be preserved in the local storage system.
+# todo-list
+This is a simple to-do list application built with JavaScript, HTML, and CSS. It allows users to create a list of tasks with a description, completion status, and index.
 
 # 📗 Table of Contents
 
@@ -57,10 +57,9 @@ Awesome Books! is my third project at Microverse, in this project I will create 
 - [📝 License](#license)
 
 
-# 📖  book world: plain JavaScript with objects <a name="about-project"></a>
+# 📖  todo-list: plain JavaScript with objects <a name="about-project"></a>
 
-**iread** is a basic website that allows users to add/remove books from a list. We achieve that by using JavaScript objects and arrays. We also dynamically modify the DOM and add basic events. we use Github flow and a descriptive and easy-to-understand README file.
-.this app will get a complete and working navigation feature at later stages.
+This is a simple to-do list application built with JavaScript, HTML, and CSS. It allows users to create a list of tasks with a description, completion status, and index.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -86,13 +85,13 @@ Awesome Books! is my third project at Microverse, in this project I will create 
 
 ### Key Features <a name="key-features"></a>
 
--  Add a new book to the collection
--  Remove a book from the collection
--  Display all books saved in the collection
+-  Add a new task
+-  Remove a completed task
+-  Display all task
 -  Data is preserved in the browser's memory
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-https://misikira.github.io/Book-World/
+
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -138,3 +137,32 @@ Open index.html using live server extension.
 > Coming soon
 
 ## 👥 Authors <a name="getting-started"></a>
+
+👤 misikir teka
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] JavaScript classes will add
+- [ ] A complete website with navigation
+- [ ] Add more styles to make it more awesome
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project just give it a star ⭐️ .
+
+Everybody is welcome to suggest changes in iread books project.
+
+In order to do it, fork this repository, create a new branch and open a Pull Request from your branch
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse
+
+## 📝 License <a name="license"></a>
+
+This project is licensed<a  href="https://choosealicense.com/licenses/mit/">MIT</a>
